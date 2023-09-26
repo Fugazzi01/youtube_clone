@@ -1,0 +1,54 @@
+@import url("./reset.css");
+@import url("./variables.css");
+
+body {
+  background-color: var(--secundary-bg-color);
+}
+
+.search-bar {
+  padding: 12px;
+  display: block;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.video-title {
+  width: 100%;
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.video-author, .video-stats {
+  font-size: 14px;
+  color: var(--secundary-text-color);
+}
+
+.video-author {
+  margin-bottom: 4px;
+}
+
+.profile-picture {
+  width: 90%;
+  border-radius: 50%;
+}
+
+.thumbnail-row {
+  margin-bottom: 12px;
+}
