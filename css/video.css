@@ -2,11 +2,6 @@ body {
   background-color: var(--secundary-bg-color);
 }
 
-.search-bar {
-  padding: 12px;
-  display: block;
-}
-
 .video-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;

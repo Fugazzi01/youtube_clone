@@ -1,7 +1,29 @@
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  height: 70px;
+  justify-content: space-between;
+  
+  height: 55px;
+}
+
+.search-bar {
+  display: block;
+}
+
+.left-section {
+  background-color: aqua;
+  width: 150px;
+}
+
+.middle-section {
+  background-color: bisque;
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+}
+
+.right-section {
+  background-color: aqua; 
+  width: 200px; 
 }
