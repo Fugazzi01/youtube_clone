@@ -42,6 +42,7 @@
   border-color: var(--primary-bg-color);
   border-radius: 2px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.10);
+  width: 0;
 }
 
 .search-bar::placeholder {
@@ -75,8 +76,23 @@
 }
 
 .right-section {
-  background-color: aqua; 
+  margin-right: 15px;
   width: 200px; 
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  flex-shrink: 0;
+}
+
+.upload-icon,
+.apps-icon,
+.noti-icon {
+  height: 24px;
+  cursor: pointer;
+}
+
+.my-chanel-pic {
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
 }
