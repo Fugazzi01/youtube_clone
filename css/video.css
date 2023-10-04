@@ -44,4 +44,17 @@ body {
 
 .thumbnail-row {
   margin-bottom: 12px;
+  position: relative;
+}
+
+.video-time {
+  background-color: rgba(0, 0, 0, 0.629);
+  color: white;
+  border-radius: 4px;
+  position: absolute;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px;
+  right: 5px;
+  bottom: 8px;
 }

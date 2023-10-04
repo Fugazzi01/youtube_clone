@@ -9,6 +9,7 @@
   height: 55px;
   background-color: var(--secundary-bg-color);
   border-bottom: 1px solid var(--primary-bg-color);
+  z-index: 100;
 }
 
 .left-section {
@@ -90,6 +91,22 @@
 .noti-icon {
   height: 24px;
   cursor: pointer;
+}
+
+.noti-container {
+  position: relative;
+  align-items: center;
+}
+
+.noti-counter {
+  position: absolute;
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 1px 5px 1px;
+  border-radius: 50%;
+  top: -5px;
+  right: -5px;
 }
 
 .my-chanel-pic {
