@@ -3,7 +3,31 @@
   position: fixed;
   bottom: 0;
   left: 0;
-  top: 55px;
+  top: 54px;
   width: 72px;
   border-right: 1px solid var(--primary-bg-color);
+  z-index: 200;
+  padding-top: 5px;
+}
+
+.sidebar-link {  
+  height: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.sidebar-link:hover {
+  background-color: var(--primary-bg-color);
+}
+
+.sidebar-link img {
+  height: 24px;
+  margin-bottom: 5px;
+}
+
+.sidebar-link div {
+  font-size: 10px;  
 }
